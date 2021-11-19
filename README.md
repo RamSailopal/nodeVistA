@@ -1,7 +1,6 @@
 # nodeVISTA
 
-This is a VISTA system based on Node.js ("_nodeVISTA_"). 
-_nodeVISTA_ is a FOIA VISTA configured for a demonstration hospital for testing, development, and related projects.
+This is a VISTA system driven by Node.js ("_nodeVISTA_"), which allows coding all functionality in Javascript for both server and clients.
 
 
 * [nodeVISTA Docker](https://github.com/CloudVistA/nodevista/tree/main/setupDocker#docker-for-nodevista)
