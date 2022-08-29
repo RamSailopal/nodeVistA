@@ -1,4 +1,4 @@
-# nodeVISTA
+# nodeVistA
 
 This is a VISTA system driven by Node.js ("_nodeVISTA_"), which allows coding all functionality in Javascript for both server and clients.
 
