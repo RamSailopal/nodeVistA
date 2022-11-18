@@ -45,11 +45,11 @@ Optional: Access command line interface of Docker container
 ### Thick Clients
 The main client of VistA is a Windows application called the Computerized Patient Record System (CPRS).
 To run CPRS on a Macintosh or Linux machine, one needs to first create a Windows virtual machine.
-* Download and install Virtualbox (for your specific computers achitecture) [here](https://www.virtualbox.org/wiki/Downloads) 
-* Download and install Virtualbox Extension Pack (same for all computer achitectures) [here](https://www.virtualbox.org/wiki/Downloads)
+* Download and install Virtualbox [here](https://www.virtualbox.org/wiki/Downloads) 
+* Download and install Virtualbox Extension Pack [here](https://www.virtualbox.org/wiki/Downloads)
 * Download the Microsoft Winodows 10 disk image [here](https://www.microsoft.com/en-us/software-download/windows10ISO). 
-* Install Windows 10 disk image in Virtualbox [instuctions](https://www.wikihow.com/Install-Windows-10-in-VirtualBox)
-* Download and install CPRS within the Windows 10.  CPRS installer is [here](https://altushost-swe.dl.sourceforge.net/project/worldvista-ehr/WorldVistA_EHR_3.0/CPRS-Files-WVEHR3.0Ver2-16_BasedOn1.0.30.16.zip)
+* Install Windows 10 disk image in Virtualbox. Instructions [here](https://www.wikihow.com/Install-Windows-10-in-VirtualBox)
+* Download and install CPRS within the Windows 10.  CPRS installer [here](https://altushost-swe.dl.sourceforge.net/project/worldvista-ehr/WorldVistA_EHR_3.0/CPRS-Files-WVEHR3.0Ver2-16_BasedOn1.0.30.16.zip)
 
 
 To configure the connection between the CPRS client and nodeVISTA server:
