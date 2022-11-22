@@ -1,0 +1,36 @@
+#
+#       AUTHOR - Raman Sailopal
+#
+version: "2"
+services:
+ nodevista:
+   hostname: nodevista
+   container_name: nodevista
+   image: docker.io/vistadataproject/nodevista999:latest
+   networks:
+      - yottanet
+   ports:
+      - 9330:9430
+      - 9331:8001
+   mem_limit: 1G
+   volumes:
+     - "$PWD/vista:/home/vista"
+   entrypoint: [ "/bin/bash", "-c", "/home/vista/entrypoint.sh" ]
+
+
+
+ nodem:
+   image: docker.io/vistadataproject/nodevista999:latest 
+   hostname: fmql
+   container_name: fmql
+   volumes:
+     - "$PWD/nodem:/home/nodem"
+   entrypoint: [ "/bin/bash", "-c", "/home/nodem/entrypoint.sh" ]
+   networks:
+      - yottanet
+   ports:
+      - 9100:9000
+   mem_limit: 1G
+
+networks:
+    yottanet:
