@@ -47,7 +47,7 @@ e.g.
 
 Open VSCode Studio and and open a new folder.
 
-Select a **Clone Git Repository...** and enter **https://github.com/RamSailopal/Powershell-VistA-CPRS.git**
+Select a **Clone Git Repository...** and enter **https://github.com/RamSailopal/nodeVistA.git**
 
 Once cloned, type "Powershell" on the Windows search bar (bottom right of desktop) Select **Run as administrator** Once the shell is opened, enter:
 
