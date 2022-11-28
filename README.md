@@ -62,5 +62,9 @@ These can execution stages can then be split:
 **VistA container**
 
     /home/nodevista/bin/start.sh
+    
+# Windows Installer
+
+Powershell scripts have been added to run nodevista container after installing Docker Desktop for WIndows (if required). Script also for installing CPRS client. All scripts are held in **Windows-install** directory.
  
 
